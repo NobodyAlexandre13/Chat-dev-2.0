@@ -88,7 +88,7 @@ const FazerLogin = (event) => {
         login.style.display = "none"
         chat.style.display = "flex"
     
-        websocket = new WebSocket("wss://chat-beckend.onrender.com")
+        websocket = new WebSocket("wss://chat-beckend-awh3.onrender.com")
 
         websocket.onmessage = processarSMS
     }
